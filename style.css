@@ -1,0 +1,99 @@
+/* HEADER
+================================================== */
+.site-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 5;
+}
+
+/* Buttons */ 
+.btn {
+    min-width: 145px;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.btn-fill {
+    color: #fff;
+    background-color: #212121;
+}
+
+.btn-border {
+    background-color: transparent;
+    color: #212121;
+    border: 1px solid #212121; 
+}
+
+.btn-fill:hover,
+.btn-fill:focus {
+    color: #fff;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+.hero .container {
+    position: relative;
+    height: 100%;
+}
+
+.visible-xxs {
+    display: none;
+}
+
+
+
+
+.section-services .container {
+    padding: 120px 100px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Navigation */
+.navbar-nav > li > a {
+    padding: 5px 0;
+    font-weight: 600;
+    color: #212121;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+/*    transition: border-color 0.25s ease-in-out;
+    -moz-transition: border-color 0.25s ease-in-out;
+    -webkit-transition: border-color 0.25s ease-in-out;
+    -o-transition: border-color 0.25s ease-in-out;
+    -ms-transition: border-color 0.25s ease-in-out;*/
+}
+
+.navbar-nav.navbar-right {
+    margin-right: 0;
+}
+
+.navbar-nav > li + li > a {
+    margin-left: 40px;
+}
+
+/*.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a,
+.nav > li > a:hover,
+.nav > li.active > a {
+    background-color: transparent;
+    border-bottom: 2px solid #212121;
+}
+
+.nav > li > a:focus {
+    background-color: transparent;
+}*/
